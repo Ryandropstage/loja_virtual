@@ -135,8 +135,12 @@ header {
 }
 
 
-@media screen and (max-widht:640px) {
-    .content{
+@media screen and (max-width:641px) {
+    .container-flex .content {
+        display: block !important;
+    }
+
+    .Produtos {
         display: block;
     }
 }
