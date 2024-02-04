@@ -156,6 +156,9 @@ header {
         box-sizing: border-box;
         font-family: 'Roboto', sans-serif;
     }
+        .Produtos{
+            display: inline-flex;
+        }
         .container {
             max-width: 500px;
             width: 100%;
