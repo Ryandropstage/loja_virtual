@@ -157,7 +157,9 @@ header {
         font-family: 'Roboto', sans-serif;
     }
         .Produtos{
-            display: inline-flex;
+            display: flex;
+        flex-direction: column;
+        align-items: center;
         }
         .container {
             max-width: 500px;
