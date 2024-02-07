@@ -82,7 +82,7 @@ header {
     margin: 16px 0;
 }
 
-    .lista-de-produtos li img{
+    .lista-de-produtos {
         max-width: 100%;
         padding: 8px;
     }
@@ -169,5 +169,11 @@ header {
         .lista-de-produtos img {
             width: 200px;
             height: 200px;
+        }
+
+        container-flex.lista-de-produtos{
+            position: absolute;
+            top: 50%;
+            transform: translate(-50%, -50%);
         }
     }
