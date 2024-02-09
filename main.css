@@ -133,6 +133,11 @@ header {
             margin-top: 8px;
         }
 
+        .lista-de-produtos{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
 
         .lista-de-produtos img {
             width: 200px;
