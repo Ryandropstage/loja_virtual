@@ -105,7 +105,7 @@ header {
         margin-left: 30px;
     }
 
-    @media screen and (max-width: 641px) {
+    @media screen and (max-width: 641px) and (max-width:1024px) {
 
         *{
             margin: 0;
@@ -140,40 +140,13 @@ header {
         }
 
         .lista-de-produtos li {
-            margin: 10px;
+            width: calc(50%-20px);
+            margin-bottom: 20px;
         }
         
 
         .lista-de-produtos button {
-            margin-top: 8px;
+            margin:0 auto
         }
     }
 
-    @media screen and (max-width:500){
-
-        *{margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: 'Roboto', sans-serif;
-    }
-        .Produtos{
-            display: flex;
-        flex-direction: column;
-        align-items: center;
-        }
-        .container {
-            max-width: 500px;
-            width: 100%;
-            margin: 0 2px;
-        }
-        .lista-de-produtos img {
-            width: 200px;
-            height: 200px;
-        }
-
-        container-flex.lista-de-produtos{
-            position: absolute;
-            top: 50%;
-            transform: translate(-50%, -50%);
-        }
-    }
